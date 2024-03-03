@@ -9,7 +9,7 @@ const addPost = (pfp, accName, accHandle, postContent, postImage = '') => {
 
               <div class="u-profile-detail flex gap-1 sm-extra-small:gap-3 items-start justify-center w-full">
                 <div class="pfp-pic w-11 h-11">
-                  <img src="${pfp}"
+                  <img src="${pfp}" 
                     alt="profile-picture" class="w-full object-contain rounded-full">
                 </div>
 
@@ -293,13 +293,7 @@ document.querySelector('.close-sidebar').addEventListener('click', () => {
 // Adding Posts
 
 const samplePosts = [
-  {
-    "pfp": "https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_normal.jpg",
-    "userName": "Elon Musk",
-    "userHandle": "elonmusk",
-    "postText": "If you’re lucky, history remembers you as a salad",
-    "postImage": "https://pbs.twimg.com/media/GGmh2G9WkAAzi8v?format=jpg&name=small",
-  },
+
   {
     "pfp": "https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_normal.jpg",
     "userName": "Elon Musk",
